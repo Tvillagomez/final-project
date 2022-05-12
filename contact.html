@@ -4,63 +4,136 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact Us Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet">
 </head>
 <body>
-
-    <div class="container">
-        
-        <header>
-            
-            <div class="logo"></div> 
-
-            <nav>
-                <ul class="navigation">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="about.html">About</a></li>
-                  </ul>
-            </nav>
-
-        </header>
-
-
-        <div>
-                <h1>Contact Us</h1>
-                    <form action="action_page.php">
-                
-                    <label for="fname">First Name</label>
-                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
-                
-                    <label for="lname">Last Name</label>
-                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-                
-                    <label for="country">Country</label>
-                    <select id="country" name="country">
-                        <option value="australia">Australia</option>
-                        <option value="canada">Canada</option>
-                        <option value="usa">USA</option>
-                    </select>
-                
-                    <label for="subject">Subject</label>
-                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-                
-                    <input type="submit" value="Submit">
-                
-                    </form>
+<header>
+    <div class="wrapper">
+        <div class="logo">
+            <img src="img/Getting Faded-logos.jpeg" alt="Barbershop">
+    </div>
+    <ul class="nav-area">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</div>
+    <section class="contact">
+        <div class="content">
+            <h2>Contact Us</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime similique eveniet ad nemo deserunt quaerat vel perferendis eligendi quae assumenda! Cupiditate voluptates autem excepturi, dolores consequuntur nihil placeat dignissimos obcaecati!</p>
+        </div>
+        <div class="container">
+            <div class="contact-info">
+                <div class="box">
+                    <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="5" height="5" fill="currentColor" class="icon" viewBox="0 0 16 16">
+                        <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+                        <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                      </svg></div>
+                        <div class="text">
+                            <h3>Address</h3>
+                            <p>1114 N Lake St, <br> Madera, CA 93638</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="5" height="5" fill="currentColor" class="icon" viewBox="0 0 16 16">
+                            <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                          </svg></div>
+                            <div class="text">
+                                <h3>Phone</h3>
+                                <p>(559) 661-8208</p>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="icon" viewBox="0 0 16 16">
+                                <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+                              </svg></div>
+                                <div class="text">
+                                    <h3>Email</h3>
+                                    <p>barberemail@gmail.com</p>
+                                </div>
+                            </div>
                 </div>
             </div>
-
-             <footer>
-                Footer
-            </footer>
-    
+            <div class="contact-form">
+                <form>
+                    <h2>Send Message</h2>
+                    <div class="input-box">
+                        <input type="text" name="" required="required">
+                        <span>Full Name</span>
+                    </div>
+                    <div class="input-box">
+                        <input type="text" name="" required="required">
+                        <span>Email</span>
+                    </div>
+                    <div class="input-box">
+                        <textarea required="required"></textarea>
+                        <span>Type your Message...</span>
+                    </div>
+                    <div class="input-box">
+                        <input type="submit" name="" value="send">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-dark">
+            <footer>
+                <div class="container">
+                    <div class="row">
+                        <div class="col">                        
+                            <h3>Shop Hours</h3>
+                            <ul>
+                                <li><a href="#">Monday - Saturday <br> 8 a.m. - 5 p.m.</a></li>
+                            </ul>
+                        </div>
+                        <div class="col">
+                            <h3>Contact</h3>
+                            <ul>
+                                <li><a href="#">Book Appointment</a></li>
+                                <li><a href="#">Gallery</a></li>
+                                <li><a href="#">Barbers</a></li>
+                            </ul>
+                        </div>
+                        <div class="col">
+                            <h3>About</h3>
+                            <ul>
+                                <li><a href="#">Shop</a></li>
+                                <li><a href="#">Team</a></li>
+                                <li><a href="#">Careers</a></li>
+                            </ul>
+                        </div>
+                        <div class="col">
+                            <h3>Locations</h3>
+                            <address>
+                                1114 N Lake St, <br> Madera, CA 93638 <br>
+                                <a href="tel:+5596618208">(559) 661-8208</a><br>
+                                <a href="mailto:barberemail@gmail.com">barberemail@gmail.com</a>
+                              </address>
+                        </div>
+                        <div class="col">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12749.820484797581!2d-120.0564829!3d36.9750682!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x66bf07934fae2daf!2sAll%20Star%20Barber%20Shop!5e0!3m2!1sen!2sus!4v1652062902536!5m2!1sen!2sus" width="200" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                    <!-- Add font awesome icons -->
+                     <a href="#" class="fa fa-facebook"></a>
+                     <a href="#" class="fa fa-twitter"></a>
+                     <a href="#" class="fa fa-instagram"></a>
+                     <a href="#" class="fa fa-youtube"></a>
+                     <a href="#" class="fa fa-snapchat-ghost"></a>
+                 </div>
+                 <p class="copyright">Getting Faded © 2022</p>
+             </div>
+         </footer>
+     </div>
+ </footer>  
 </body>
 </html>

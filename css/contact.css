@@ -1,0 +1,200 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Poppins', sans-serif;
+}
+.wrapper {
+	display: flex;
+	margin: auto;
+}
+header{
+    background: url(https://images.pexels.com/photos/3162022/pexels-photo-3162022.jpeg?cs=srgb&dl=pexels-caleb-oquendo-3162022.jpg&fm=jpg&h=5872&w=4000&fit=crop);
+	height: 100vh;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position-y: top;
+	position: relative;
+}
+.nav-area {
+	float: right;
+    margin-left: 63%;
+	list-style: none;
+	margin-top: 30px;
+}
+.nav-area li {
+	display: inline-block;
+}
+.nav-area li a {
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: poppins;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+.nav-area li a:hover {
+	background: #fff;
+	color: #333;
+}
+.logo {
+	float: left;
+}
+.logo img {
+	width: 85px;
+	padding: 15px 0;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.contact {
+    position: relative;
+    min-height: 200vh;
+    padding: 50px 100px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://images.pexels.com/photos/3993293/pexels-photo-3993293.jpeg?cs=srgb&dl=pexels-cottonbro-3993293.jpg&fm=jpg&w=3851&h=5777);
+    background-size: cover;
+}
+
+.contact .content {
+    max-width: 800px;
+    text-align: center;
+}
+
+.contact .content h2 {
+    font-size: 36px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.contact .content p {
+    font-weight: 300;
+    color: #fff;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.container .contact-info {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.container .contact-info .box {
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+
+.container .contact-info .box .icon  {
+    min-width: 35px;
+    height: 35px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    border-radius: 100%;
+    font-size: 22px;
+}
+
+.container .contact-info .box .text {
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #fff;
+    flex-direction: column;
+    font-weight: 300;
+}
+
+.container .contact-info .box .text h3 {
+    font-weight: bold;
+    color: #00bcd4;
+}
+
+.contact-form {
+    width: 40%;
+    padding: 40px;
+    background: #fff;
+}
+
+.contact-form h2 {
+    font-size: 30px;
+    color: #333;
+    font-weight: bold;
+}
+
+.contact-form .input-box {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.contact-form .input-box input, 
+.contact-form .input-box textarea {
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16x;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+}
+
+.contact-form .input-box span {
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16x;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666
+}
+
+.contact-form .input-box input:focus ~ span, 
+.contact-form .input-box input:valid ~ span, 
+.contact-form .input-box textarea:focus ~ span, 
+.contact-form .input-box textarea:valid ~ span {
+    color: #e91e63;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+
+.contact-form .input-box input[type="submit"] {
+    width: 100px;
+    background: #00bcd4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+
+@media (max-width: 991px) {
+    .contact {
+        padding: 50px;
+    }
+    .container {
+        flex-direction: column;
+    }
+    .container .contact-info {
+        margin-bottom: 40px;
+    }
+    .container .contact-info .contact-form {
+        width: 100%;
+    }
+}

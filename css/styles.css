@@ -9,7 +9,7 @@ body {
 	width: 1170px;
 	margin: auto;
 }
-header {
+header{
 	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("https://images.pexels.com/photos/1895701/pexels-photo-1895701.jpeg?cs=srgb&dl=pexels-lisa-fotios-1895701.jpg&fm=jpg&w=3024&h=4032");
 	height: 100vh;
 	-webkit-background-size: cover;
@@ -109,4 +109,38 @@ header {
 		font-size: 30px;
 	}
 
-   
+	* {
+		box-sizing: border-box;
+		font-size: 16p;
+		font-family: 'Open Sans', sans-serif;
+	}
+	
+	header {
+		background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("https://images.pexels.com/photos/3162022/pexels-photo-3162022.jpeg?cs=srgb&dl=pexels-caleb-oquendo-3162022.jpg&fm=jpg&w=3648&h=5472");
+		height: 100vh;
+		-webkit-background-size: cover;
+		background-size: cover;
+		background-position: center center;
+		position: relative;
+	}
+	
+	h1 {
+		font-family: 'Koulen', cursive;
+	}
+	header {
+		height: 100px;
+		background-color: seagreen;
+	}
+	.navigation {
+		padding-left: 0;
+		float: right;
+	}
+	.navigation > li {
+		list-style-type: none;
+		display: inline-block;
+		padding: 15px;
+	}
+	.navigation > li > a  {
+		text-decoration: none;
+	}
+}
